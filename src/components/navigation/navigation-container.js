@@ -71,7 +71,8 @@ const NavigationComponent = (props) => {
         </div>
 
         <div className="right-side">
-          <button className="btnNav">&lt;Neum John G Vento&gt;</button>
+          <a href="https://www.instagram.com/neeuuummmm/" target="_blank" className="btnNav">&lt;Neum John G Vento&gt;</a>
+       
 
           {props.loggedInStatus === 'LOGGED_IN' ? (
           <a onClick={handleSignOut}>

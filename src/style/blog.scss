@@ -8,18 +8,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        a {
-            cursor: pointer;
-            margin-left: 15px;
-            font-size: 1.5em;
-            color: gray;
-            transition: 0.5s ease-in-out;
-
-            &:hover {
-                color: $warning;
-            }
-        }
     }
 
 
@@ -48,16 +36,17 @@
         width: 800px;
 
         h1 {
-            font-size: 1.5em;
+            color: $blue;
+            font-size: 1.3em;
         }
 
         a {
             text-decoration: none;
-            color: $teal;
+            color: orangered;
             transition: 0.5s ease-in-out;
 
             &:hover {
-                color: $dark-teal;
+                color: $warning;
             }
         }
 
