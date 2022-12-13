@@ -1,0 +1,7 @@
+.btn {
+    @include base-btn();
+}
+
+.right-side .btn {
+    @include base-btn2();
+}
